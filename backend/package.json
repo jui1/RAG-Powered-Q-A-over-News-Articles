@@ -1,0 +1,36 @@
+{
+  "name": "rag-news-chatbot-backend",
+  "version": "1.0.0",
+  "description": "RAG-powered chatbot backend for news websites",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "ingest": "node src/scripts/ingestNews.js"
+  },
+  "keywords": ["rag", "chatbot", "news", "gemini", "vector-db"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "redis": "^4.6.10",
+    "@google/generative-ai": "^0.2.1",
+    "axios": "^1.6.2",
+    "rss-parser": "^3.13.0",
+    "cheerio": "^1.0.0-rc.12",
+    "chromadb": "^1.10.5",
+    "uuid": "^9.0.1",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "overrides": {
+    "@google/generative-ai": "^0.2.1"
+  }
+}
+
+
