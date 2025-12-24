@@ -316,8 +316,5 @@ npm run dev  # Development server with HMR
 
 MIT
 
-## Contact
-
-For questions or issues, please contact: richa@voosh.in
 
 
